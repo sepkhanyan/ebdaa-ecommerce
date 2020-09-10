@@ -116,7 +116,7 @@ class OrderInvoiceController extends Controller
     {
         if($payment){
             $data = [];
-            $paymentServiceCode = 'order.base.service.code';
+            $paymentServiceCode = 'order.base.service.name';
             foreach ($payment as $key => $item) {
                 return $item->$paymentServiceCode;
             }

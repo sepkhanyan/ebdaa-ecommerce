@@ -108,7 +108,7 @@ $expConfig = $this->config( 'admin/jqadm/url/export/config', [] );
  * @since 2017.07
  * @category Developer
  */
-$default = $this->config( 'admin/jqadm/order/fields', ['order.id', 'order.base.id', 'order.statusdelivery', 'order.base.sitecode', 'order.cdate', 'order.statuspayment', 'order.base.address.lastname', 'order.base.service.delivery.type'] );
+$default = $this->config( 'admin/jqadm/order/fields', ['order.id', 'order.base.id', 'order.statusdelivery', 'order.base.sitecode', 'order.cdate', 'order.statuspayment', 'order.base.address.lastname', 'order.base.service.delivery.type', 'order.base.service.name'] );
 $fields = $this->session( 'aimeos/admin/jqadm/order/fields', $default );
 
 $searchParams = $params = $this->get( 'pageParams', [] );
