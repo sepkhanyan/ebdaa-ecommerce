@@ -1,0 +1,10 @@
+.delivery-waiting { fill: #969696; }
+.delivery-cancelled{ fill: #e6550d; }
+.delivery-ready-for-delivery { fill: #fd8d3c; }
+.delivery-preparing { fill: #3182bd;}
+.delivery-delivering {  fill: #e2e211;}
+.delivery-delivered { fill: #74c476;}
+.delivery-lost { fill: #fdae6b; }
+.delivery-refused { fill: #0c762e;  }
+.delivery-returned { fill: #756bb1; }
+

@@ -1,0 +1,30 @@
+/*
+ * Custom ebdaa CSS
+ */
+
+#send_csv {
+    opacity: 0.5;
+}
+
+#send_csv_loader{
+    display: none;
+}
+
+.valid-input{
+    border-color: #28a745!important;
+    box-shadow: 0 0 0 0.2rem rgba(56, 193, 114, 0.25)!important;
+}
+
+.invalid-input{
+    border-color: #dc3545!important;
+    box-shadow: 0 0 0 0.2rem rgba(227, 52, 47, 0.25)!important;
+}
+.csv_error_message{
+    color: red;
+    padding: 11px;
+    display: none;
+}
+
+.order-base-service-delivery-type {
+    width: 150px;
+}

@@ -1,0 +1,11 @@
+/*
+ * Custom ebdaa CSS
+ */
+@media (min-width: 992px) {
+    .syaanh-logo img{
+        height: 70px!important;
+        width: 100%!important;
+        padding: unset!important;
+        margin: auto;
+    }
+}

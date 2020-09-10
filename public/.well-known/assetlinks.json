@@ -1,0 +1,27 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.ebdaadt.syaanhclient",
+    "sha256_cert_fingerprints":
+    ["DC:B6:54:85:A5:2A:A3:13:10:7F:27:BF:45:1D:7B:C2:93:D8:B1:D4:89:FB:52:12:15:A7:59:E3:9B:4A:BF:10",
+      "DC:B6:54:85:A5:2A:A3:13:10:7F:27:BF:45:1D:7B:C2:93:D8:B1:D4:89:FB:52:12:15:A7:59:E3:9B:4A:BF:10"]
+  }
+},
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://shops.syaanh.com"
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ebdaadt.syaanhclient",
+      "sha256_cert_fingerprints":
+      ["DC:B6:54:85:A5:2A:A3:13:10:7F:27:BF:45:1D:7B:C2:93:D8:B1:D4:89:FB:52:12:15:A7:59:E3:9B:4A:BF:10",
+        "DC:B6:54:85:A5:2A:A3:13:10:7F:27:BF:45:1D:7B:C2:93:D8:B1:D4:89:FB:52:12:15:A7:59:E3:9B:4A:BF:10"]
+    }
+  }]

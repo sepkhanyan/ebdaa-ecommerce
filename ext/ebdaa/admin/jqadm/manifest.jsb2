@@ -1,0 +1,50 @@
+{
+	"projectName": "ebdaa",
+	"licenseText": "proprietary",
+	"pkgs": [{
+		"name": "ebdaa CSS",
+		"file": "ebdaa.css",
+		"isDebug": true,
+		"fileIncludes": [{
+            "text": "sidebar.css",
+            "path": "themes/css/"
+        },{
+            "text": "admin.css",
+            "path": "themes/css/"
+        },{
+            "text": "dashboard.css",
+            "path": "themes/css/"
+        },{
+            "text": "catalog.css",
+            "path": "themes/css/"
+        }]
+	}, {
+		"name": "ebdaa JS",
+		"file": "ebdaa.js",
+		"isDebug": true,
+		"fileIncludes": [{
+            "text": "order.js",
+            "path": "themes/js/"
+        },{
+            "text": "admin.js",
+            "path": "themes/js/"
+        },{
+            "text": "get_orders.js",
+            "path": "themes/js/"
+        },{
+            "text": "dashboard-order.js",
+            "path": "themes/js/"
+        },{
+            "text": "dashboard-sales.js",
+            "path": "themes/js/"
+        },{
+            "text": "dashboard-service.js",
+            "path": "themes/js/"
+        },
+            {
+            "text": "catalog.js",
+            "path": "themes/js/"
+        }]
+	}],
+	"resources" : []
+}

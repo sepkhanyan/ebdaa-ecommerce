@@ -1,0 +1,15 @@
+{
+    "activitycontinuation": {
+        "apps": ["6GW49LK9V9.com.ebdaadt.syaanh"]
+    },
+    "webcredentials": {
+        "apps": ["6GW49LK9V9.com.ebdaadt.syaanh"]
+    },
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "6GW49LK9V9.com.ebdaadt.syaanh",
+            "paths": ["*"]
+        }]
+    }
+}
